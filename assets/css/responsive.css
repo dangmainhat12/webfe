@@ -1,0 +1,195 @@
+/*================ Mobile & Tablet ================*/
+@media (max-width: 1023px) {
+    #header-top {
+        display: none;
+    }
+    .main-menu li {
+        border-bottom: 1px solid #433f3f;
+    }
+    ul.sub-menu li {
+        margin-right: 0px;
+    }
+    .main-menu .sub-menu {
+        list-style: none;
+        text-decoration: none;
+        top: 63%;
+        right: 0px;
+        width: 100%;
+        background: #181515;
+        box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+        z-index: 1;
+        padding: 0;
+        position: relative;
+    }
+    .main-menu .sub-menu a {
+        display: block;
+        text-decoration: none;
+        color: #7b7b7b;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 11px 18px;
+        line-height: 15px;
+    }
+    .search {
+        display: flex;
+        justify-content: right;
+    }
+    .search input {
+        max-width: 100%;
+    }
+    .search-card {
+        position: relative;
+        padding-bottom: 14px;
+        top: 4px;
+        right: 8px;
+        padding-right: 0px;
+    }
+    .search-card a i {
+        margin-left: 8px;
+    }
+    .box-card p.discount {
+        font-size: 1rem;
+        color: #000000;
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+    p.description {
+        font-size: 0.75rem;
+        color: #545454;
+        margin-bottom: 15px;
+    }
+    a.card-link {
+        font-size: 1rem;
+        color: #efefef;
+        background-color: #000000;
+        padding: 4px 17px;
+    }
+}
+/*================ Tablet ================*/
+@media (min-width: 740px) and (max-width: 1023px) {
+    #header-top {
+        display: block;
+    }
+    .main-menu li {
+        border-bottom: 1px solid #433f3f;
+    }
+    .search {
+        display: flex;
+        justify-content: right;
+        padding-top: 12px;
+    }
+    .search input {
+        max-width: 100%;
+    }
+    .search-card {
+        position: relative;
+        padding-bottom: 14px;
+        top: 4px;
+        right: 8px;
+        padding-right: 0px;
+    }
+    .search-card a i {
+        margin-left: 8px;
+    }
+    .box-card {
+        padding-left: 10px;
+        padding-right: 164px;
+        padding-top: 59px;
+    }
+    .box-card p.discount {
+        font-size: 1rem;
+        color: #000000;
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+    .box-card h6.heading-title {
+        font-size: 1.4rem;
+        color: #e2524a;
+        margin-bottom: 5px;
+    }
+    p.description {
+        font-size: 0.75rem;
+        color: #545454;
+        margin-bottom: 15px;
+    }
+    a.card-link {
+        font-size: 1rem;
+        color: #efefef;
+        background-color: #000000;
+        padding: 6px 20px;
+    }
+}
+/*================ Mobile ================*/
+@media (max-width: 739px) {
+    .main-menu {
+        font-size: 0.8rem;
+    }
+    .main-menu li {
+        border-bottom: 1px solid #433f3f;
+    }
+    #main-nav {
+        padding-bottom: 14px;
+    }
+    .search {
+        display: flex;
+        justify-content: right;
+    }
+    .search input {
+        max-width: 100%;
+    }
+    .search-card {
+        position: relative;
+        padding-bottom: 14px;
+        top: 4px;
+        right: 8px;
+        padding-right: 0px;
+    }
+    .search-card a i {
+        margin-left: 8px;
+    }
+    .category-img {
+        margin-bottom: 12px;
+    }
+    .box-card p.discount {
+        font-size: 0.75rem;
+        color: #000000;
+    }
+    .box-card h6.heading-title {
+        font-size: 1rem;
+        color: #e2524a;
+        margin-bottom: 5px;
+    }
+    p.description {
+        font-size: 0.5rem;
+        color: #545454;
+        margin-bottom: 8px;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    a.card-link {
+        font-size: 0.65rem;
+        color: #efefef;
+        background-color: #000000;
+        padding: 4px 17px;
+    }
+    .box-card p.discount {
+        font-size: 0.75rem;
+        color: #000000;
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+    .box-card {
+        padding-left: 10px;
+        padding-right: 140px;
+        padding-top: 2px;
+    }
+    .box {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .box-head h3 {
+        font-size: 1.3rem;
+    }
+}
